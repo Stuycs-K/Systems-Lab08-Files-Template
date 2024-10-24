@@ -1,3 +1,3 @@
-Your makefile should have a `compile` target, and a `run` target.
+Your makefile should have a `compile` target, and both `read` and `write` targets.
 
-If you want to be lazy/efficient, make an `all` target that does both compile and run for your own testing. However, I will `make compile`, then `make run`.
+I will `make compile`, then `make write` at least once before I `make read`.
